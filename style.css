@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.conteiner {
+    width: 40vw;
+    height: 80vh;
+    margin: 5vh auto;
+}
+
+textarea {
+   width: 40vw;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.actiondiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh 0 5vh;
+    position: relative;
+}
+
+#checkbox {
+    transform: scale(1.5);
+    margin-right: 5px;
+}
+
+label {
+    font-size: 14px;
+}
+
+
+button.clearfield {
+   display: inline-block;
+    width: 15vw;
+    height: 25px;
+    transform: translateY(-4px);   
+}
+
+.resultfielddiv {
+    border: 2px solid blue;
+    min-height: 10vh;
+    word-wrap: break-word;
+}
+
+@media (max-width: 700px) {
+    div.conteiner {
+        width: 70vw;
+    }
+    
+    textarea {
+       width: 70vw;  
+    }
+}
+
+@media (max-width: 600px) {
+    .actiondiv {
+        padding: 3vh 0 3vh;
+    }
+}
+
+@media (max-width: 414px) {
+    button.clearfield {
+         width: 20vw;   
+     }
+}
+
